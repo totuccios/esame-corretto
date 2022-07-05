@@ -1,0 +1,64 @@
+.aside{
+    width: 25%;
+    height: 1000px;
+    background-color: green;
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    
+}
+.mini{
+    width: 250px;
+    height: 60px;
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.testo{
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    gap: 30px ;
+    background-color: violet;
+}
+
+nav {
+    width: 75%;
+    height: 80px;
+    background-color: blue;
+    display: block;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    float: right;
+    margin-top: 25px;
+}
+
+div.testo {
+    display: flex;
+    justify-content: center;
+   position: absolute;
+   margin-top: 40px;
+   top: 200px;
+   margin-left: 200px;
+}
+@media screen and (max-width: 375px) {
+    .aside{
+       display: none;
+    }
+
+    .dh{
+        display: none;
+    }
+
+} 
